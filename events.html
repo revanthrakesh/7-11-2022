@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<input type="text" placeholder="Enter a name" onchange="operation()"/>
+
+    <button onclick="demo()">submit</button>
+    <script type="text/javascript">
+    	function demo(){
+    		alert("danger")
+    	}	
+    	
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function save(){
+			/*var s=document.getElementById("event").innerHTML;
+			console.log(s)
+			var r=document.getElementById("India").innerHTML;
+			console.log(r)
+			var user=document.getElementById("user").value;
+			console.log(user)*/
+			var group=document.getElementsByclassName("group")
+			var list=document.getElementsByTagName("li")
+			console.log(list)
+			for(var i=0;i<group.length;i++){
+				console.log(group[i].innerHTML)
+          }
+	}
+	</script>
+</head>
+<body> 
+	<input id="user"/>
+	<h1 id="event">events in javascript</h1>
+	<p class="group">i love India</p>
+	<h1 class="group">good morning</h1>
+	<p class="group">Thank u</p>
+	<h4 class="group">How are you</h4>
+	<ul>
+	   <li>rakesh</li>
+	   <li>murali</li>
+	   <li>sunny</li>
+	   <li>bharat</li>
+	   <li>abhilash</li>
+	   <li>adhi narayana</li>
+	   <li>dhanu</li>
+	   <li>bala krishna</li>
+	   <li>barnabas</li>
+	   <li>sai</li>
+	   <li>rajesh</li>
+	   <li>venkatesh</li>
+	   <li>anil</li>
+	   <li>syam</li>
+	   <li>prakesh</li>
+
+	</ul>
+	<button onclick="save()">submit</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
